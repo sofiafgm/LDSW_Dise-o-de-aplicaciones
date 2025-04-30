@@ -1,5 +1,5 @@
+import 'package:aplicaciones_moviles/pages/movies.dart';
 import 'package:flutter/material.dart';
-import 'pages/pokemon_list.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
 
@@ -57,7 +57,7 @@ class MyHomePage extends StatelessWidget {
             onPressed: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => PokemonList()),
+                MaterialPageRoute(builder: (context) => MoviesPage()),
               );
             },
             child: const Text('Entrar',
